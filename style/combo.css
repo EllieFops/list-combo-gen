@@ -1,0 +1,31 @@
+h2 {
+  text-align: left;
+}
+
+div.floatBox {
+  width: 250px;
+  display: inline-block;
+}
+
+div.floatBox textarea {
+  width: 100%;
+  height: 20em;
+}
+
+#output {
+  clear:both;
+  width: 400px;
+  margin: 10px auto;
+  text-align: center;
+}
+
+#output textarea {
+  width: 400px;
+  height: 2em;
+}
+
+body {
+  background-color: #f9f9f9;
+  text-align: center;
+  margin: 0 auto;
+}
