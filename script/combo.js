@@ -61,7 +61,7 @@
     h2.setAttribute('contenteditable', 'true');
     h2.appendChild(document.createTextNode(name));
 
-    // Setup textarea
+    // Setup text area
     text.id = id;
     text.setAttribute('tabindex', num);
 
@@ -158,7 +158,6 @@
       }
 
       swapColumns(parent.previousSibling.getAttribute('column'), parent.getAttribute('column'));
-      return;
     }
   });
 
